@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ukázka různých formulářových prvků v HTML.">
+    <title>Ukázka formulářů</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="forms-page">
+    <header class="advanced-header">
+      <a class="small-google-logo" href="index.html" aria-label="Zpět na vyhledávání">Google</a>
+      <nav class="top-links" aria-label="Hlavní navigace">
+        <a href="index.html">Vyhledávání Google</a>
+        <a href="images.html">Obrázky</a>
+        <a href="advanced.html">Rozšířené hledání</a>
+        <a href="https://wettermaros-hub.github.io/portfolio.html">Portfolio</a>
+      </nav>
+    </header>
+
+    <main class="forms-main">
+      <p class="eyebrow">HTML · ukázkové prvky</p>
+      <h1>Formuláře</h1>
+      <p class="form-notice"><strong>Ukázka — formuláře nejsou funkční.</strong> Prvky slouží pouze k předvedení různých typů vstupů. Odesílání dat není zapojené.</p>
+
+      <form class="demo-form">
+        <fieldset>
+          <legend>Textové vstupy</legend>
+          <div class="field-grid">
+            <label>Text<input type="text" placeholder="Napište text"></label>
+            <label>Heslo<input type="password" placeholder="Heslo"></label>
+            <label>E-mail<input type="email" placeholder="jmeno@example.cz"></label>
+            <label>Adresa webu<input type="url" placeholder="https://example.cz"></label>
+            <label>Telefon<input type="tel" placeholder="+420 123 456 789"></label>
+            <label>Číslo<input type="number" min="0" max="100" placeholder="0"></label>
+            <label>Datum<input type="date"></label>
+            <label>Čas<input type="time"></label>
+            <label>Měsíc<input type="month"></label>
+            <label>Týden<input type="week"></label>
+            <label>Datum a čas<input type="datetime-local"></label>
+            <label>Barva<input type="color" value="#4285f4"></label>
+            <label>Rozsah<input type="range" min="0" max="100" value="40"></label>
+            <label>Soubor<input type="file"></label>
+            <label>Vyhledávání<input type="search" placeholder="Hledat"></label>
+          </div>
+          <label class="wide-field">Město (návrhy)
+            <input type="text" list="cities" placeholder="Začněte psát">
+            <datalist id="cities">
+              <option value="Praha"></option>
+              <option value="Brno"></option>
+              <option value="Ostrava"></option>
+            </datalist>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Výběr a možnosti</legend>
+          <label class="wide-field">Oblíbená kategorie
+            <select>
+              <option value="">Vyberte možnost</option>
+              <optgroup label="Technologie">
+                <option>Web</option>
+                <option>Hardware</option>
+              </optgroup>
+              <option>Kultura</option>
+            </select>
+          </label>
+          <label class="wide-field">Více možností (Ctrl nebo Cmd + kliknutí)
+            <select multiple size="3">
+              <option>HTML</option>
+              <option>CSS</option>
+              <option>JavaScript</option>
+            </select>
+          </label>
+          <span class="group-label">Preferovaný způsob kontaktu</span>
+          <div class="choice-row">
+            <label><input type="radio" name="contact-method" value="email"> E-mail</label>
+            <label><input type="radio" name="contact-method" value="phone"> Telefon</label>
+            <label><input type="radio" name="contact-method" value="none"> Žádný</label>
+          </div>
+          <span class="group-label">Zájmy</span>
+          <div class="choice-row">
+            <label><input type="checkbox" name="interest" value="design"> Design</label>
+            <label><input type="checkbox" name="interest" value="coding"> Programování</label>
+            <label><input type="checkbox" name="interest" value="music"> Hudba</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Zpráva a ovládání</legend>
+          <label class="wide-field">Vaše zpráva
+            <textarea rows="5" placeholder="Napište zprávu…"></textarea>
+          </label>
+          <label class="choice-label"><input type="checkbox"> Souhlasím s ukázkovými podmínkami</label>
+          <div class="demo-actions">
+            <button type="button" disabled>Odeslat (nefunkční)</button>
+            <button class="secondary-button" type="reset">Vymazat políčka</button>
+          </div>
+          <div class="wide-field">
+            <span>Ukazatele</span>
+            <progress value="65" max="100">65%</progress>
+            <meter min="0" max="100" low="30" high="75" optimum="90" value="65">65 ze 100</meter>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-label">Česká republika</p>
+      <div class="footer-links">
+        <a href="https://github.com/wettermaros-hub/googlesearch/blob/main/citace.md">Citace a zdroje</a>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwettermaros-hub.github.io%2Fgooglesearch%2Fforms.html">Validovat HTML této stránky</a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwettermaros-hub.github.io%2Fgooglesearch%2Fstyles.css&amp;profile=css3svg&amp;usermedium=all&amp;warning=1&amp;lang=cs">Validovat CSS</a>
+      </div>
+    </footer>
+  </body>
+</html>

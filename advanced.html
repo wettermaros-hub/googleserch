@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pokročilé hledání s přesnějším zadáním dotazu pro Google.">
+    <title>Rozšířené hledání Google</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="advanced-page">
+    <header class="advanced-header">
+      <a class="small-google-logo" href="index.html" aria-label="Zpět na Google">Google</a>
+      <nav class="top-links" aria-label="Hlavní navigace">
+        <a href="index.html">Vyhledávání Google</a>
+        <a href="images.html">Obrázky</a>
+        <a href="forms.html">Formuláře</a>
+        <a href="https://wettermaros-hub.github.io/portfolio.html">Portfolio</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="advanced-title">Rozšířené hledání</h1>
+      <form class="advanced-form" action="https://www.google.com/search" method="get">
+        <div class="advanced-intro">
+          <span>Najít stránky obsahující…</span>
+          <span class="example-heading">Příklad</span>
+        </div>
+        <div class="advanced-row">
+          <label for="all-words">všechna tato slova:</label>
+          <input id="all-words" type="text" name="as_q" autocomplete="off">
+          <span class="example-text">slova, která chcete zahrnout</span>
+        </div>
+        <div class="advanced-row">
+          <label for="exact-phrase">přesné toto slovo nebo frázi:</label>
+          <input id="exact-phrase" type="text" name="as_epq" autocomplete="off">
+          <span class="example-text">„přesná fráze“</span>
+        </div>
+        <div class="advanced-row">
+          <label for="any-words">kterékoli z těchto slov:</label>
+          <input id="any-words" type="text" name="as_oq" autocomplete="off">
+          <span class="example-text">slovo OR slovo</span>
+        </div>
+        <div class="advanced-row">
+          <label for="none-words">žádné z těchto slov:</label>
+          <input id="none-words" type="text" name="as_eq" autocomplete="off">
+          <span class="example-text">slovo, které nechcete</span>
+        </div>
+        <div class="advanced-submit">
+          <button type="submit">Rozšířené hledání</button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-label">Česká republika</p>
+      <div class="footer-links">
+        <a href="https://github.com/wettermaros-hub/googlesearch/blob/main/citace.md">Citace a zdroje</a>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwettermaros-hub.github.io%2Fgooglesearch%2Fadvanced.html">Validovat HTML této stránky</a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwettermaros-hub.github.io%2Fgooglesearch%2Fstyles.css&amp;profile=css3svg&amp;usermedium=all&amp;warning=1&amp;lang=cs">Validovat CSS</a>
+      </div>
+    </footer>
+  </body>
+</html>
