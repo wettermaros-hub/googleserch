@@ -8,6 +8,8 @@ Statický web vytvořený jako řešení zadání [CS50 Web Project 0: Search](h
 - `images.html` — vyhledávání obrázků
 - `advanced.html` — rozšířené hledání
 - `forms.html` — ukázka formulářových prvků; odesílání je záměrně vypnuté
+- `portfolio.html` — portfolio Mariana Wettera
+- `portfolio.css` — styly portfolia
 - `citace.md` — zdroje a použitý prompt
 
 Projekt vytvořený s pomocí AI jako školní práce.

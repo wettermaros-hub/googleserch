@@ -2,6 +2,7 @@
 
 ## Zadání a technické informace
 
+- Portfolio Mariana Wettera — zdrojový repozitář: <https://github.com/wettermaros-hub/wettermaros-hub.github.io>
 - Harvard CS50 Web Programming with Python and JavaScript, Project 0 — Search: <https://cs50.harvard.edu/web/projects/0/search/>
 - Google Search — cílová adresa pro textové hledání: <https://www.google.com/search>
 - Google Images — cílová adresa pro hledání obrázků (`tbm=isch`): <https://www.google.com/search?tbm=isch>
