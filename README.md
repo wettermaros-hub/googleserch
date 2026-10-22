@@ -10,4 +10,6 @@ Statický web vytvořený jako řešení zadání [CS50 Web Project 0: Search](h
 - `forms.html` — ukázka formulářových prvků; odesílání je záměrně vypnuté
 - `citace.md` — zdroje a použitý prompt
 
-Otevři GitHub Pages na `https://wettermaros-hub.github.io/googlesearch/` po zapnutí Pages v nastavení repozitáře (Settings → Pages → Deploy from a branch → `main` / root).
+Projekt vytvořený s pomocí AI jako školní práce.
+
+Po zapnutí GitHub Pages v nastavení repozitáře (Settings → Pages → Deploy from a branch → `main` / root) bude web dostupný na `https://wettermaros-hub.github.io/googleserch/`.
